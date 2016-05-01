@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>TeachMe Technology</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+    
+<body>
+
+    <header class="row">
+            <div class="container">
+            </div>
+    </header>
+    
+    <div class="container">
+      <h3></h3>
+      <ul class="nav nav-pills nav-justified">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="services.html">Services & Pricing</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </div>
+    
+    <div class="form">
+            <h1 id="contactme">Contact me today and lets work together!</h1>
+            
+            <p style="text-align: center; padding-top: 20px">Please fill out all fields</p>
+
+                <form action="contact.php" method="post">
+                <p><b>Name:</b> <input type="text" name="yourname" /><br />
+                <b>Phone:</b> <input type="number" name="phone" /><br />
+                <b>E-mail:</b> <input type="text" name="email" /><br />
+                </p>
+
+                <p>Do you like this website?
+                <input type="radio" name="likeit" value="Yes" checked="checked" /> Yes
+                <input type="radio" name="likeit" value="No" /> No
+                <input type="radio" name="likeit" value="Not sure" /> Not sure</p>
+
+                <p>How did you find us?
+                <select name="how">
+                <option value=""> -- Please select -- </option>
+                <option>Google</option>
+                <option>Yahoo</option>
+                <option>Link from a website</option>
+                <option>Word of mouth</option>
+                <option>Other</option>
+                </select>
+
+                <p><b>What do you need help with?</b><br />
+                <textarea name="comments" rows="10" cols="40"></textarea></p>
+
+                <p><input type="submit" value="Send it!"></p>
+
+
+                </form>
+            </div>
+    
+    
+    
+    <footer>
+                <li style="text-align: center; list-style: none; padding-top: 10px">
+                    <a href="https://www.facebook.com/TechTutorDaytona/?fref=nf">
+                        <img src="images/facebook.png">
+                    </a>   
+                </li>
+                <li>8888 Road Road, Daytona Florida, 45150</li>
+                <li>555-555-5555</li>
+    </footer>
+</body>
+</html>
